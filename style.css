@@ -199,8 +199,12 @@ section.topo-do-site .flex {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
     border-radius: 5px;
-}
+    max-width:350px;
+    max-height:200px;
+    width: auto;
+    height: auto;
 
+}
 
 @keyframes flutuar {
     0% {
